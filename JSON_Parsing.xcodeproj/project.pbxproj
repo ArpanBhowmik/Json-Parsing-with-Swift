@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3E111F29F3980300965886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E111E29F3980300965886 /* main.swift */; };
+		CF3E112629F3983900965886 /* JSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112529F3983900965886 /* JSONSerialization.swift */; };
+		CF3E112829F3991E00965886 /* JSONEncoderDecoderBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112729F3991E00965886 /* JSONEncoderDecoderBasics.swift */; };
+		CF3E112A29F3997000965886 /* JSONDecoderIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112929F3997000965886 /* JSONDecoderIntermediate.swift */; };
+		CF3E112C29F399BC00965886 /* JSONParsingAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112B29F399BC00965886 /* JSONParsingAdvanced.swift */; };
+		CF3E112E29F399E800965886 /* DecodingJSONToFlatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112D29F399E800965886 /* DecodingJSONToFlatModel.swift */; };
+		CF3E113029F39A3600965886 /* ParsingJSONFromWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E112F29F39A3600965886 /* ParsingJSONFromWebAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF3E111929F3980300965886 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3E111B29F3980300965886 /* JSON_Parsing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON_Parsing; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E111E29F3980300965886 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF3E112529F3983900965886 /* JSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerialization.swift; sourceTree = "<group>"; };
+		CF3E112729F3991E00965886 /* JSONEncoderDecoderBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoderDecoderBasics.swift; sourceTree = "<group>"; };
+		CF3E112929F3997000965886 /* JSONDecoderIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderIntermediate.swift; sourceTree = "<group>"; };
+		CF3E112B29F399BC00965886 /* JSONParsingAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingAdvanced.swift; sourceTree = "<group>"; };
+		CF3E112D29F399E800965886 /* DecodingJSONToFlatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingJSONToFlatModel.swift; sourceTree = "<group>"; };
+		CF3E112F29F39A3600965886 /* ParsingJSONFromWebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingJSONFromWebAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3E111829F3980300965886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3E111229F3980300965886 = {
+			isa = PBXGroup;
+			children = (
+				CF3E111D29F3980300965886 /* JSON_Parsing */,
+				CF3E111C29F3980300965886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3E111C29F3980300965886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E111B29F3980300965886 /* JSON_Parsing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3E111D29F3980300965886 /* JSON_Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E111E29F3980300965886 /* main.swift */,
+				CF3E112529F3983900965886 /* JSONSerialization.swift */,
+				CF3E112729F3991E00965886 /* JSONEncoderDecoderBasics.swift */,
+				CF3E112929F3997000965886 /* JSONDecoderIntermediate.swift */,
+				CF3E112B29F399BC00965886 /* JSONParsingAdvanced.swift */,
+				CF3E112D29F399E800965886 /* DecodingJSONToFlatModel.swift */,
+				CF3E112F29F39A3600965886 /* ParsingJSONFromWebAPI.swift */,
+			);
+			path = JSON_Parsing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3E111A29F3980300965886 /* JSON_Parsing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3E112229F3980300965886 /* Build configuration list for PBXNativeTarget "JSON_Parsing" */;
+			buildPhases = (
+				CF3E111729F3980300965886 /* Sources */,
+				CF3E111829F3980300965886 /* Frameworks */,
+				CF3E111929F3980300965886 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSON_Parsing;
+			productName = JSON_Parsing;
+			productReference = CF3E111B29F3980300965886 /* JSON_Parsing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3E111329F3980300965886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CF3E111A29F3980300965886 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CF3E111629F3980300965886 /* Build configuration list for PBXProject "JSON_Parsing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3E111229F3980300965886;
+			productRefGroup = CF3E111C29F3980300965886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3E111A29F3980300965886 /* JSON_Parsing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3E111729F3980300965886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E112629F3983900965886 /* JSONSerialization.swift in Sources */,
+				CF3E111F29F3980300965886 /* main.swift in Sources */,
+				CF3E112C29F399BC00965886 /* JSONParsingAdvanced.swift in Sources */,
+				CF3E112829F3991E00965886 /* JSONEncoderDecoderBasics.swift in Sources */,
+				CF3E112E29F399E800965886 /* DecodingJSONToFlatModel.swift in Sources */,
+				CF3E113029F39A3600965886 /* ParsingJSONFromWebAPI.swift in Sources */,
+				CF3E112A29F3997000965886 /* JSONDecoderIntermediate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF3E112029F3980300965886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3E112129F3980300965886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF3E112329F3980300965886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF3E112429F3980300965886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3E111629F3980300965886 /* Build configuration list for PBXProject "JSON_Parsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E112029F3980300965886 /* Debug */,
+				CF3E112129F3980300965886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3E112229F3980300965886 /* Build configuration list for PBXNativeTarget "JSON_Parsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E112329F3980300965886 /* Debug */,
+				CF3E112429F3980300965886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3E111329F3980300965886 /* Project object */;
+}
